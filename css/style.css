@@ -47,7 +47,7 @@
 
 		a:hover {
 			text-decoration: none;
-			color: #dd2a2a !important;
+			color: black !important;
 			border-bottom-color: transparent;
 		}
 
@@ -1205,7 +1205,7 @@
 			}
 
 			.dropotron li.active > a, .dropotron li:hover > a {
-				background: #dd2a2a ;
+				background: black ;
 				color: #ffffff !important;
 			}
 
@@ -1286,7 +1286,7 @@
 		}
 
 			#banner .button:hover {
-				background-color:  white;
+				background-color:  black;
 			}		
 
 
@@ -1308,12 +1308,10 @@
 			padding: 0;
 			color: white;
 			background-color: black;
-			margin: 0px 410px 0px 410px;
+			margin: -60px 100px 0px 100px;
 			padding: 5px;
 			border-radius: 10px;
 			font-family: 'Bangers', cursive;
-
-
 		}
 
 		#banner h3 {
@@ -1324,7 +1322,8 @@
 			margin: 0px 510px 20px 510px;*/
 			padding: 40px;
 			border-radius: 30px;
-			font-family: 'Magra', sans-serif;
+			/*font-family: 'Magra', sans-serif;*/
+			font-family: 'Bowlby One SC', cursive;
 
 
 			
@@ -1335,6 +1334,28 @@
 			font-family: 'Magra', sans-serif;
 		}
 
+		.learnMoreTextFirst {
+			color: white;
+			font-family: 'Magra', sans-serif;
+		}
+
+		.learnMoreTextResume {
+			color: white;
+			font-family: 'Magra', sans-serif;
+			
+		}
+
+		.BackToTop li {
+			margin: 50px 0px 50px 0px;
+		}
+
+
+
+		.learnMoreTextOne {
+			color: black;
+			font-family: 'Magra', sans-serif;
+			margin: -50px 0px 0px 0px;
+		}
 		
 
 	/*body.is-loading #banner:after {
@@ -1501,6 +1522,34 @@ text-align: center;
 	margin: 0px 0px 0px 0px;
 }
 
+.seeResume {
+	text-align: center;
+	padding: 30px 0px 0px 0px;
+}
 
+.seeResume a {
+	background-color: black;
+}
+
+
+.ResumeClick {
+
+}
+
+.ethanPicture img {
+	height: 210px;
+	width: auto;
+	border-radius: 120px;
+	border: solid white 2px;
+	opacity: 0.9;
+}
+
+.iconsAboutMe  {
+	margin: -30px 0px -20px 0px;
+}
+
+.iconsAboutMe i {
+	padding: 10px 0px 0px 0px;
+}
 
 
